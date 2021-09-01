@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡Geez-Project⚡ Versi:** \n "
-            f"heads/Geez-Userbot-0-x634i7u1"
+            "**⚜-**⚡Vern-Ubot⚡ Versi:** \n "
+            f"heads/Vern-Ubot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -230,7 +230,7 @@ async def amireallyalive(alive):
     output = (
         f"\n__**{GEEZ_TEKS_KUSTOM}**__\n"
         f"**╭───────────────────**\n"
-        f"**├[• 🤴 Geez Owner** \n"
+        f"**├[• 🤴 Vern-Ubot Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
         f"**├[• 🔎 Username** \n"
         f"├[•   : `@{user.username}` \n"
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**ㅤㅤㅤㅤ ⚡ＧΞ ΞＺ - ＰＲＯＪＥＣＴ⚡**\n"
+        f"**ㅤㅤㅤㅤ ⚡🇻 🇪 🇷 🇳  - 🇦 🇸 🇮 🇸 🇸 🇹 🇦 🇳 🇹⚡**\n"
         f"╔══════════╬════╬══════════╗ \n"
         f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[ＧΞ ΞＺ](t.me/VckyouuBitch)             ㅤ ║\n"
         f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
         f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
         f"╚══════════╬════╬══════════╝ \n"
-        f"🔰 : [𝗥𝗘𝗣𝗢-𝙂𝙚𝙚𝙯](https://github.com/vckyou/Geez-UserBot)\n👥 : [ＧΞ ΞＺ-𝗧𝗘𝗔𝗠](t.me/GeezSupportGroup)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Vckyouuu)\n"
+        f"🔰 : [𝗥𝗘𝗣𝗢-𝗩𝗲𝗿𝗻](https://github.com/vckyou/Geez-UserBot)\n👥 : [ＧΞ ΞＺ-𝗧𝗘𝗔𝗠](t.me/GeezSupportGroup)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Vckyouuu)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -311,7 +311,7 @@ async def redis(alive):
     await asyncio.sleep(2)
     output = (
         f"╭═──────╼═⌘═╾───────═\n"
-        f"┃⚡ＧΞ ΞＺ - ＰＲＯＪＥＣＴ⚡\n"
+        f"┃⚡🇻 🇪 🇷 🇳  - 🇦 🇸 🇮 🇸 🇸 🇹 🇦 🇳 🇹⚡\n"
         f"╰═─────╼══⌘══╾─────═ \n"
         f" ❍ `Name     :` {DEFAULTUSER} \n"
         f" ❍ `Username :` @{user.username} \n"
@@ -321,8 +321,8 @@ async def redis(alive):
         f" ❍ `Bot Ver  :` {BOT_VER} \n"
         f" ❍ `Modules  :` {len(modules)} Modules \n"
         f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Geez-UserBot)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
-        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/vckyouuu)\n"
+        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Vern-Ubot)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/RepVern18)  |  "
+        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/nerotampan)\n"
         f"╰═──────╼═⌘═╾───────═")
     if ALIVE_LOGO:
         try:
