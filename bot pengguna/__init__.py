@@ -101,9 +101,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/vckyou/Geez-UserBot")
+    "https://github.com/vellovern/Vern-Ubot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Geez-UserBot")
+    "UPSTREAM_REPO_BRANCH", "Vern-Ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -462,11 +462,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/RepVern18"),
                             Button.url("🚨 Group support",
                                        "t.me/GeezSupportGroup")],
                         [Button.url("👤 Development",
-                                    "t.me/VckyouuBitch")],
+                                    "t.me/Veernn")],
                     ]
                 )
 
@@ -506,25 +506,25 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
+                    text=f"⚡𝗩𝗲𝗿𝗻-𝗨𝗯𝗼𝘁⚡\n\n⚡**Owner : {DEFAULTUSER}**\n\n⚡ **Bot Ver :** `5.0`\n⚡ **𝗠odules :** `{len(plugins)}`\n\n⚡ **Dev : VCKYOUUU **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ⚡𝗩𝗲𝗿𝗻-𝗨𝗯𝗼𝘁⚡ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="""**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ⚡𝗩𝗲𝗿𝗻-𝗨𝗯𝗼𝘁⚡ ",
+                    text="""**⚡𝗩𝗲𝗿𝗻-𝗨𝗯𝗼𝘁⚡\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+                                "⚡𝗩𝗲𝗿𝗻-𝗨𝗯𝗼𝘁⚡",
                                 "https://github.com/vckyou/Geez-Userbot"),
                             custom.Button.url(
                                 "OWNER",
@@ -564,7 +564,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/GeezProject"),
+                                       "t.me/RepVern18"),
                             Button.url("🚨 Group support",
                                        "t.me/GeezSupportGroup")],
                         [Button.inline("Open Menu", data="nepo")],
